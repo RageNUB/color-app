@@ -1,4 +1,4 @@
-const hexNumber = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F", "a", "b", "c", "d", "e", "f", "#"]
+// const hexNumber = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F", "a", "b", "c", "d", "e", "f", "#"]
 
 const hexInputEL = document.getElementById("hexInput")
 const inputColorEl = document.getElementById("inputColor")
@@ -25,7 +25,7 @@ toggleBtn.addEventListener("click", function() {
 })
 
 hexInputEL.addEventListener('keyup', () => {
-    const hexRange = /^[#A-Fa-f0-9]+$/;
+//     const hexRange = /^[#A-Fa-f0-9]+$/;
 
     const hexColor = hexInputEL.value;
     if (!isValidHex(hexColor)) return;
